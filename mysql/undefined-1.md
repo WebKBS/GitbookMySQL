@@ -1,7 +1,7 @@
 # 데이터베이스 생성
 
 ```sql
-CREATE DATABASE <데이터베이스 이름>
+CREATE DATABASE <데이터베이스 이름>;
 ```
 
 데이터베이스 이름은 공백을 만들지 않는다.
