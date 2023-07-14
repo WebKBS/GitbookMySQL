@@ -17,5 +17,7 @@ mysql.server start
 ### 현재 사용중인 데이터베이스 보기
 
 ```sql
-show databases
+show databases;
 ```
+
+\*\* sql은 문장 완성시 반드시 ; (세미콜론)으로 종료 지점을 표시해야한다.
