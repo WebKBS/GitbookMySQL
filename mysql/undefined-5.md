@@ -52,3 +52,35 @@ NOT NULL은 반드시 값이 있어야 한다는것을 추가한다.
 테이블 생성시 NOT NULL을 설정하면\
 INSERT할때 값이 없으면 에러를 발생시킨다.
 
+### DEFAULT
+
+```sql
+CREATE TABLE <테이블 이름>  (    
+    name VARCHAR(20) DEFAULT 'default value',    
+    age INT DEFAULT 99  
+);
+```
+
+default 설정을하면,\
+공백 입력시
+
+```sql
+INSERT INTO <테이블 이름>() VALUES(); // 아무 값을 넣지 않았을때.
+```
+
+default에 설정된 값이 입력된다.&#x20;
+
+
+
+#### NOT NULL과 DEFAULT는 조합하여 사용할 수 있다.
+
+```sql
+CREATE TABLE <테이블 이름>  (
+        name VARCHAR(20) NOT NULL DEFAULT 'default value',
+        age INT NOT NULL DEFAULT 99
+ );
+```
+
+NOT NULL과 조합하여 사용시,\
+NOT NULL은 값이 없으면 에러를 발생하지만,\
+DEFAULT가 설정 되어있다면 값이 NULL이어도 DEFAULT의 값이 대체 되어 사용된다.
