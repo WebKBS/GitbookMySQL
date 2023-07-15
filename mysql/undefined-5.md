@@ -36,3 +36,19 @@ DESC <테이블 이름>;
 
 DESCRIBE 또는 DESC를 사용한다.
 
+
+
+### NOT NULL
+
+```sql
+CREATE TABLE <테이블 이름> (
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL
+);
+```
+
+NOT NULL은 반드시 값이 있어야 한다는것을 추가한다.
+
+테이블 생성시 NOT NULL을 설정하면\
+INSERT할때 값이 없으면 에러를 발생시킨다.
+
