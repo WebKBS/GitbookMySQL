@@ -90,21 +90,20 @@ DEFAULT가 설정 되어있다면 값이 NULL이어도 DEFAULT의 값이 대체 
 
 ### KEY
 
-```sql
-CREATE TABLE <테이블 이름> (
+<pre class="language-sql"><code class="lang-sql">CREATE TABLE &#x3C;테이블 이름> (
     id INT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     age INT NOT NULL
 );
 
 -- 또 다른 방법
-CREATE TABLE <테이블 이름> (
-    id INT,
+<strong>CREATE TABLE &#x3C;테이블 이름> (
+</strong>    id INT,
     name VARCHAR(100) NOT NULL,
     age INT NOT NULL,
-    PRIMARY KEY (cat_id)
-);;l
-```
+    PRIMARY KEY (id)
+);
+</code></pre>
 
 key, 한마디로 id 설정이다. 고유한 id.
 
@@ -117,3 +116,17 @@ INSERT로 생성시 동일한 key가 있으면 에러를 발생시킨다.
 고유해야하고 반드시 있어야하는 값이기 때문에\
 항상 NOT NULL상태이다.
 
+
+
+### KEY 자동 입력 (AUTO\_INCREMENT)
+
+```sql
+CREATE TABLE <테이블 이름> (
+    id INT AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL,
+    PRIMARY KEY (id)
+);
+```
+
+AUTO\_INCREMENT를 설정하면, KEY를 입력하지 않아도 자동으로 증가 하는 키를 생성한다.
