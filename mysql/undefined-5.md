@@ -83,4 +83,35 @@ CREATE TABLE <테이블 이름>  (
 
 NOT NULL과 조합하여 사용시,\
 NOT NULL은 값이 없으면 에러를 발생하지만,\
-DEFAULT가 설정 되어있다면 값이 NULL이어도 DEFAULT의 값이 대체 되어 사용된다.
+DEFAULT가 설정 되어있다면 값이 NULL이어도 DEFAULT의 값이 대체 되어 사용된다.\
+
+
+
+
+### KEY
+
+```sql
+CREATE TABLE <테이블 이름> (
+    id INT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL
+);
+
+-- 또 다른 방법
+CREATE TABLE <테이블 이름> (
+    id INT,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL,
+    PRIMARY KEY (cat_id)
+);;l
+```
+
+key, 한마디로 id 설정이다. 고유한 id.
+
+INSERT로 생성시 동일한 key가 있으면 에러를 발생시킨다.
+
+동일한 이름과 age가 있을때, 중복된 사용자시 누가 누군지 인지하기 어렵기 때문에\
+식별자를 추가하든 고유 id를 부여해야한다.
+
+
+
