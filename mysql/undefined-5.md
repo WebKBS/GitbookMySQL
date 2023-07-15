@@ -18,3 +18,21 @@ SHOW TABLES;
 ```
 
 생성된 테이블 목록이 나온다.
+
+
+
+### 테이블 colum 확인하기
+
+```sql
+SHOW COLUMNS FROM <테이블 이름>
+```
+
+단축어로 사용하는 방법.
+
+```sql
+DESCRIBE <테이블 이름>;
+DESC <테이블 이름>;
+```
+
+DESCRIBE 또는 DESC를 사용한다.
+
