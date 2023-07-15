@@ -8,3 +8,4 @@
   * [데이터 타입](mysql/undefined-4.md)
   * [테이블 생성하기](mysql/undefined-5.md)
   * [테이블 삭제하기](mysql/undefined-6.md)
+  * [데이터 삽입하기](mysql/undefined-7.md)
