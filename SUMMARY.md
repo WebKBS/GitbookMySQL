@@ -14,3 +14,4 @@
   * [데이터 테이블 삭제](mysql/undefined-10.md)
   * [String Functions](mysql/string-functions/README.md)
     * [CONCAT()](mysql/string-functions/concat.md)
+    * [SUBSTRING()](mysql/string-functions/substring.md)
