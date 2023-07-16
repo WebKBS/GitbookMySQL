@@ -47,3 +47,16 @@ SELECT <열 이름>, <열 이름> FROM <테이블 이름> WHERE <열이름> = <�
 -- 예시, SELECT name FROM people WHERE age = 10;
 -- 예시, SELECT name, age FROM people WHERE name = "Kim";
 ```
+
+
+
+## Alias, 이름 변경해서 보기
+
+```sql
+SELECT <열 이름> AS <변경할 열 이름> FROM <테이블 이름>;
+-- 예시
+SELECT name AS first_name FROM people;
+```
+
+열 이름을 불러올때 이름을 변경해서 불러온다.\
+\*\* 불러올때 이름을 변경하더라도 실제 테이블에서 변경되는것은 아니다.
