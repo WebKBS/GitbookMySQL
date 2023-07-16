@@ -39,3 +39,11 @@ SELECT * FROM <테이블 이름> WHERE <열이름> = <값>;
 
 \*\* number는 숫자를 사용하고, string은 "" 및 '' 을 사용하되, 대소문자를 가리지 않는다.
 
+### 원하는 열만 보기
+
+```sql
+SELECT <열 이름>, <열 이름> FROM <테이블 이름> WHERE <열이름> = <값>;
+
+-- 예시, SELECT name FROM people WHERE age = 10;
+-- 예시, SELECT name, age FROM people WHERE name = "Kim";
+```
