@@ -10,3 +10,4 @@
   * [테이블 삭제하기](mysql/undefined-6.md)
   * [데이터 삽입하기](mysql/undefined-7.md)
   * [데이터 테이블 읽기](mysql/column.md)
+  * [데이터 테이블 업데이트](mysql/undefined-9.md)
