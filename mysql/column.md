@@ -31,8 +31,10 @@ column 이름을 "," 콤마로 구분해서 사용한다.
 ```sql
 SELECT * FROM <테이블 이름> WHERE <열이름> = <값>;
 
--- 예시, SELECT * FROM people WHERE age = 10;
--- 예시, SELECT * FROM people WHERE name = "Kim";
+-- 예시 
+SELECT * FROM people WHERE age = 10;
+-- 예시 
+SELECT * FROM people WHERE name = "Kim";
 ```
 
 모든 열에 열 이름의 값을 볼때 사용한다.
@@ -44,8 +46,10 @@ SELECT * FROM <테이블 이름> WHERE <열이름> = <값>;
 ```sql
 SELECT <열 이름>, <열 이름> FROM <테이블 이름> WHERE <열이름> = <값>;
 
--- 예시, SELECT name FROM people WHERE age = 10;
--- 예시, SELECT name, age FROM people WHERE name = "Kim";
+-- 예시
+SELECT name FROM people WHERE age = 10;
+-- 예시
+SELECT name, age FROM people WHERE name = "Kim";
 ```
 
 
