@@ -15,3 +15,4 @@
   * [String Functions](mysql/string-functions/README.md)
     * [CONCAT()](mysql/string-functions/concat.md)
     * [SUBSTRING()](mysql/string-functions/substring.md)
+    * [REPLACE()](mysql/string-functions/replace.md)
