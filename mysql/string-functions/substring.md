@@ -31,4 +31,14 @@ SUBSTRING도 마찬가지로 이름을 수정할 수 있다.
 SELECT SUBSTRING(title, 1, 10) AS 'short title' FROM <테이블 이름>;
 ```
 
-### 축약어 SUBSTR()
+{% hint style="info" %}
+축약어 SUBSTR()
+{% endhint %}
+
+
+
+### CONCAT과 SUBSTRING 조합
+
+```sql
+SELECT CONCAT(SUBSTR(title, 1, 10), '...') FROM <테이블 이름>;
+```
