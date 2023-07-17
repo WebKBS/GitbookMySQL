@@ -16,3 +16,4 @@
     * [CONCAT()](mysql/string-functions/concat.md)
     * [SUBSTRING()](mysql/string-functions/substring.md)
     * [REPLACE()](mysql/string-functions/replace.md)
+    * [REVERSE()](mysql/string-functions/reverse.md)
