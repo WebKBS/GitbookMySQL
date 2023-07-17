@@ -17,3 +17,4 @@
     * [SUBSTRING()](mysql/string-functions/substring.md)
     * [REPLACE()](mysql/string-functions/replace.md)
     * [REVERSE()](mysql/string-functions/reverse.md)
+    * [CHAR\_LENGTH()](mysql/string-functions/char\_length.md)
