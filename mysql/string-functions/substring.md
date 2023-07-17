@@ -40,5 +40,6 @@ SELECT SUBSTRING(title, 1, 10) AS 'short title' FROM <테이블 이름>;
 ### CONCAT과 SUBSTRING 조합
 
 ```sql
+-- 예시
 SELECT CONCAT(SUBSTR(title, 1, 10), '...') FROM <테이블 이름>;
 ```
