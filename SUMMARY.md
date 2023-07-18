@@ -22,3 +22,4 @@
     * [DISTINCT](mysql/syntax/distinct.md)
     * [ORDER BY](mysql/syntax/order-by.md)
     * [LIMIT](mysql/syntax/limit.md)
+    * [LIKE](mysql/syntax/like.md)
