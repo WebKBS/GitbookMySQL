@@ -20,3 +20,4 @@
     * [CHAR\_LENGTH()](mysql/string-functions/char\_length.md)
   * [Syntax](mysql/syntax/README.md)
     * [DISTINCT](mysql/syntax/distinct.md)
+    * [ORDER BY](mysql/syntax/order-by.md)
