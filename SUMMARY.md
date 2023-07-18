@@ -18,4 +18,5 @@
     * [REPLACE()](mysql/string-functions/replace.md)
     * [REVERSE()](mysql/string-functions/reverse.md)
     * [CHAR\_LENGTH()](mysql/string-functions/char\_length.md)
-    * [DISTINCT](mysql/string-functions/distinct.md)
+* [Syntax](syntax/README.md)
+  * [DISTINCT](syntax/distinct.md)
