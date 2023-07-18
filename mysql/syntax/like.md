@@ -60,6 +60,23 @@ SELECT * FROM <테이블 이름> WHERE <열 이름> LIKE '__ab__';
 
 
 
+### 예외적으로 %가 있는 문자를 검색할때
+
+이스케이프 처리를 해야한다.
+
+예시) 10%, Hello\_world
+
+```sql
+SELECT * FROM <테이블 이름> WHERE <열 이름> LIKE '%\%%';
+-- 역슬래시 \를 사용해야한다. \%
+SELECT * FROM <테이블 이름> WHERE <열 이름> LIKE '%10\%%';
+
+SELECT * FROM <테이블 이름> WHERE <열 이름> LIKE '%\_%';
+SELECT * FROM <테이블 이름> WHERE <열 이름> LIKE '%\_world%';
+```
+
+
+
 {% hint style="warning" %}
 LIKE 사용시 찾는 문자열은 대소문자를 구분하지 않는다!
 {% endhint %}
