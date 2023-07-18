@@ -16,8 +16,15 @@ SELECT <열 이름> FROM <테이블 이름> ORDER BY <정렬할 열 이름>;
 
 ORDER BY 다음에 오는 열 이름을 정렬한다.
 
-{% hint style="warning" %}
-ORDER BY 뒤에오는 정렬할 열 이름은 하나만 있어야한다.
+
+
+```sql
+SELECT <열 이름>, <열 이름> FROM <테이블 이름> ORDER BY <정렬할 열 이름>, <정렬할 열 이름>;
+```
+
+{% hint style="info" %}
+ORDER BY 뒤에 여러 열 이름을 추가하면 첫번째 두번째 순으로 순서대로 정렬한다. \
+\* 첫번째 열 정렬후 동일 이름이 있을시, 두번째 열에도 순서대로 정렬됨.
 {% endhint %}
 
 
@@ -40,3 +47,10 @@ SELECT <열 이름> FROM <테이블 이름> ORDER BY <정렬할 열 이름> DESC
 DESC의 반대는 ASCE. (기본값)
 {% endhint %}
 
+
+
+### CONCAT 조합해서 사용하기
+
+```sql
+SELECT CONCAT(<열 이름>, ' ', <열 이름>) AS <변경할 열이름> FROM <테이블 이름> ORDER BY <정렬할 열이름>;
+```
