@@ -1,3 +1,7 @@
+---
+description: 중복 제거후 하나만 표시
+---
+
 # DISTINCT
 
 ```sql

@@ -21,3 +21,4 @@
   * [Syntax](mysql/syntax/README.md)
     * [DISTINCT](mysql/syntax/distinct.md)
     * [ORDER BY](mysql/syntax/order-by.md)
+    * [LIMIT](mysql/syntax/limit.md)
