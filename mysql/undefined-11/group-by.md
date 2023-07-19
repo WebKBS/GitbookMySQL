@@ -30,3 +30,24 @@ GROUP BY는 모든 열 "\*" 을 SELECT하면 에러가난다.
 COUNT(\*)를 사용한다.
 {% endhint %}
 
+
+
+## 조합해서 다중 열 만드는 방법
+
+다중 열은 혹시나 중복된 열을 피할때 사용한다.
+
+```sql
+SELECT <열 이름>, <열 이름>, COUNT(*) 
+FROM <테이블 이름> 
+GROUP BY <열 이름>, <열 이름>;
+```
+
+
+
+### CONCAT을 이용한 방법
+
+```sql
+SELECT CONCAT(<열 이름>, ' ', <열 이름>) AS <변경할 열 이름>,  COUNT(*)
+FROM <테이블 이름>
+GROUP BY <변경할 열이름>;
+```
