@@ -23,3 +23,5 @@
     * [ORDER BY](mysql/syntax/order-by.md)
     * [LIMIT](mysql/syntax/limit.md)
     * [LIKE](mysql/syntax/like.md)
+  * [집계 함수](mysql/undefined-11/README.md)
+    * [COUNT()](mysql/undefined-11/count.md)
