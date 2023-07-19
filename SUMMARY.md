@@ -27,3 +27,4 @@
     * [COUNT()](mysql/undefined-11/count.md)
     * [GROUP BY()](mysql/undefined-11/group-by.md)
     * [MIN(), MAX()](mysql/undefined-11/min-max.md)
+    * [SUM()](mysql/undefined-11/sum.md)
