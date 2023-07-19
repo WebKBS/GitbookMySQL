@@ -28,3 +28,4 @@
     * [GROUP BY()](mysql/undefined-11/group-by.md)
     * [MIN(), MAX()](mysql/undefined-11/min-max.md)
     * [SUM()](mysql/undefined-11/sum.md)
+    * [AVG()](mysql/undefined-11/avg.md)
