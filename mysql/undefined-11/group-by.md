@@ -1,3 +1,7 @@
+---
+description: 열을 그룹을 지음
+---
+
 # GROUP BY()
 
 ```sql
