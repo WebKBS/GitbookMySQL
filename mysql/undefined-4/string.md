@@ -1,16 +1,4 @@
-# 데이터 타입
-
-## NUMBER
-
-### INT
-
-max size가 최대 -2147483648 \~ 2147483647 사이의 정수
-
-
-
-
-
-## STRING
+# STRING
 
 ### VARCHAR
 
@@ -34,5 +22,6 @@ CHAR(4)를 지정하면 공백 문자라도 4의 length를 가진다.
 
 입력된 고정적인 저장 공간을 차지한다.
 
-{% embed url="https://dev.mysql.com/doc/refman/5.7/en/char.html" %}
+\*\* 항상 텍스트 크기가 고정되어있을때 사용해야한다. 그렇지 않으면 VARCHAR를 사용한다.
 
+{% embed url="https://dev.mysql.com/doc/refman/5.7/en/char.html" %}
