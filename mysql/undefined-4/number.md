@@ -28,4 +28,12 @@ CREATE TABLE <테이블 이름> (<컬럼 이름> TINYINT UNSIGNED);
 
 TITNYINT의 최소 최대값은 0 \~ 255 사이의 값이 된다.
 
+
+
 {% embed url="https://dev.mysql.com/doc/refman/5.7/en/integer-types.html" %}
+
+
+
+## DECIMAL
+
+정확한 소수를 저장할때 사용한다.
