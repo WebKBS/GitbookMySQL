@@ -53,3 +53,24 @@ DECIMAL(5, 2)
 -- 생성 예시
 CREATE TABLE <테이블 이름> (<열 이름> DECIMAL(5, 2));
 ```
+
+
+
+## FLOAT, DOUBLE
+
+대략적인 숫자의 데이터 값을 나타낸다.
+
+FLOAT은 소수점 7자리 까지.
+
+DOUBLE은 소수점 15자리까지.
+
+정해진 소수점 이후에는 결과값이 부정확할 수 있다.
+
+{% hint style="info" %}
+DECIMAL과 (FLOAT, DOUBLE)의 차이점은 정확도와 메모리 크기의 차이가 있다.
+
+정확한 값에 사용하기 위해서는 DECIMAL을 사용해야하고,
+
+정확도보다 메모리 크기가 중요하다면 FLOAT, DOUBLE을 사용해야한다.
+{% endhint %}
+
