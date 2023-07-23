@@ -11,6 +11,7 @@
     * [DATE](mysql/undefined-4/date.md)
     * [TIME](mysql/undefined-4/time.md)
     * [DATETIME](mysql/undefined-4/datetime.md)
+    * [TIMESTAMP](mysql/undefined-4/timestamp.md)
   * [테이블 생성하기](mysql/undefined-5.md)
   * [테이블 삭제하기](mysql/undefined-6.md)
   * [데이터 삽입하기](mysql/undefined-7.md)
