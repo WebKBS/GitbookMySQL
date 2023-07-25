@@ -37,3 +37,5 @@
     * [AVG()](mysql/undefined-11/avg.md)
   * [논리 연산자](mysql/undefined-12/README.md)
     * [NOT Equal](mysql/undefined-12/not-equal.md)
+    * [NOT Like](mysql/undefined-12/not-like.md)
+    * [비교 연산자](mysql/undefined-12/undefined.md)
