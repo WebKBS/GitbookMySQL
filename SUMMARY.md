@@ -40,3 +40,4 @@
     * [NOT Like](mysql/undefined-12/not-like.md)
     * [비교 연산자](mysql/undefined-12/undefined.md)
     * [AND, OR 연산자](mysql/undefined-12/and-or.md)
+    * [BETWEEN](mysql/undefined-12/between.md)
