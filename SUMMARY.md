@@ -41,3 +41,6 @@
     * [비교 연산자](mysql/undefined-12/undefined.md)
     * [AND, OR 연산자](mysql/undefined-12/and-or.md)
     * [BETWEEN](mysql/undefined-12/between.md)
+    * [IN 연산자](mysql/undefined-12/in.md)
+    * [CASE](mysql/undefined-12/case.md)
+    * [IS NULL](mysql/undefined-12/is-null.md)
