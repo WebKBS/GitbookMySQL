@@ -43,3 +43,5 @@
   * [IN 연산자](undefined-12/in.md)
   * [CASE](undefined-12/case.md)
   * [IS NULL](undefined-12/is-null.md)
+* [제약 조건 및 테이블 변경](undefined-13/README.md)
+  * [UNIQUE](undefined-13/unique.md)
