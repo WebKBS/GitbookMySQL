@@ -8,7 +8,7 @@ description: 테이블 생성시 컬럼에 고유한 특성을 부여
 UNIQUE로 지정된 값은 한번만 사용할 수 있다. (중복 불가)
 {% endhint %}
 
-```
+```sql
 CREATE TABLE <테이블 이름>(
     <열 이름> VARCHAR(<값>) NOT NULL UNIQUE
 )'

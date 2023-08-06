@@ -14,6 +14,16 @@ homebrew가 설치되어있지 않으면 homebrew를 설치해야한다.
 mysql.server start
 ```
 
+
+
+### mysql 터미널에서 실행
+
+```
+mysql -u root -p
+```
+
+비밀번호 창이 뜨는데, 생성시 설정한 비밀번호를 입력하면된다.
+
 ### 현재 사용중인 데이터베이스 보기
 
 ```sql
