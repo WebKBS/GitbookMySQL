@@ -46,3 +46,4 @@
 * [제약 조건 및 테이블 변경](undefined-13/README.md)
   * [UNIQUE](undefined-13/unique.md)
   * [Check](undefined-13/check.md)
+  * [ALTER](undefined-13/alter.md)
