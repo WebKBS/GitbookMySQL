@@ -18,3 +18,18 @@ JOIN <테이블2> ON <테이블2>.<열 이름> = <테이블1>.<열 이름>;
 SELECT * FROM customers
 JOIN orders ON orders.customer_id = customers.id;
 ```
+
+
+
+### GROUP BY와 함께 사용하기
+
+```sql
+SELECT 
+    <열이름1>, <열이름2>, SUM(<합할 값>) AS <변경할 이름>
+FROM
+    <테이블1>
+        JOIN
+    <테이블2> ON <테이블2>.<열 이름> = <테이블1>.<열 이름>;
+GROUP BY <열이름1> , <열이름2>
+ORDER BY <변경할 이름>;
+```
