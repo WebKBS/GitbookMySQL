@@ -18,3 +18,10 @@ inner JOIN은 서로 다른 테이블의 오로지 교집합만 데이터를 출
 
 NULL(없는 값) 값등을 찾아낼수 있다.
 {% endhint %}
+
+
+
+### RIGHT JOIN
+
+LEFT JOIN과 동일하나 테이블 순서를 반대로 보면된다.
+
