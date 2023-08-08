@@ -47,5 +47,6 @@
   * [UNIQUE](undefined-13/unique.md)
   * [Check](undefined-13/check.md)
   * [ALTER](undefined-13/alter.md)
-* [JOIN](join.md)
+* [JOIN](join/README.md)
+  * [INNER JOIN](join/inner-join.md)
 * [일 대 다 One To Many](one-to-many.md)
