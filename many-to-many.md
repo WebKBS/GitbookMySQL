@@ -33,3 +33,26 @@ CREATE TABLE reviews (
 {% hint style="info" %}
 다대다는 테이블과 테이블을 서로 이어줄 또 다른 테이블이 있어야한다.
 {% endhint %}
+
+### JOIN으로 원하는 값 가져오기
+
+```sql
+SELECT 
+    title, rating
+FROM
+    series
+        JOIN
+    reviews ON series.id = reviews.series_id;
+```
+
+
+
+### 오름차순
+
+```sql
+- 그룹짓기
+SELECT title, ROUND(AVG(rating), 2) AS avg_rating FROM series -- AVG로 평균값 내기 ROUND로 소수점2자리까지
+JOIN reviews ON series.id = reviews.series_id
+GROUP BY title
+ORDER BY avg_rating; -- 오름차순
+```
